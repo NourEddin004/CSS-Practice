@@ -1,0 +1,30 @@
+body {
+    background-color: #fffff0;
+}
+.article {
+    float: left;
+    width: 30%;
+    height: 100px;
+    margin: 8px 1.5% 8px 0;
+    background-color: #e6e6e6;
+    overflow: hidden; /* clip the text that does not fit */
+}
+.featured {
+    clear: both; /* drop below the floated row */
+    height: 65px;
+    font-weight: bold;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    overflow-y: scroll; /* scroll to see the text that does not fit */
+    line-height: 1.4;
+}
+.featured::-webkit-scrollbar {
+    width: 20px;
+}
+.featured::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+.featured::-webkit-scrollbar-thumb {
+    background: #c9c9c9;
+    border: 2px solid #f0f0f0;
+}
