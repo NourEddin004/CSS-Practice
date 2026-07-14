@@ -1,0 +1,43 @@
+/* Title */
+h3 {
+    text-decoration: underline;
+}
+
+/* Divider line */
+hr {
+    margin-left: 0;
+    width: 50%;
+}
+
+/* First paragraph */
+.opening {
+    color: rgb(45, 45, 255);
+}
+
+/* Default link color */
+a {
+    color: rgb(255, 171, 36);
+}
+
+/* Important / call-to-action links */
+a.important {
+    color: rgb(255, 35, 35);
+}
+
+/* Marked link */
+a.marked {
+    background-color: rgb(255, 255, 51);
+    color: rgb(130, 25, 81);
+}
+
+/* Numbered sub-list */
+ul.circles {
+    color: rgb(42, 42, 208);
+    list-style-type: circle;
+}
+
+/* Plain sub-list, no bullets */
+ul.plain {
+    color: rgb(42, 42, 208);
+    list-style-type: none;
+}
